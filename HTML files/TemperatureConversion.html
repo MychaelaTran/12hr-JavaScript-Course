@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS files/TemperatureConversion.css">
+</head>
+<body>
+   <form>
+        <h1>Temperature Conversion</h1>
+        <input type="number" id="textBox" value="0"> <!--number adds arrows on the box-->
+<br>
+        <input type="radio" id="toF" name="unit">
+        <label for="toF">Celcius ➡️ Farenheight</label> <!--notice the for attrivute is same as id of input radio button-->
+<br>
+        <input type="radio" id="toC" name="unit">
+        <label for="toF">Farenheight ➡️ Celcius</label><br>
+
+        <button type="button" onclick="convert()">submit</button>
+        <p id="result">Select a unit</p>
+       
+   
+    </form> 
+
+
+    <script src="../JS files/TemperatureConversion.js"></script>
+</body>
+</html>
