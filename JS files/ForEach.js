@@ -6,12 +6,14 @@
 //behind the scenes the forEach method will provde to callback the above
 //
 
+//good for applying a function to each element of an array
+
 
 let numbers = [1,2,3,4,5];
 
 numbers.forEach(double);
 numbers.forEach(display);
-//this will display all elements in console
+//this will display all elements in console line by line
 
 function display(element){
     console.log(element);
